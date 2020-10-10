@@ -46,9 +46,7 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+ 
 
 function About() {
   return (

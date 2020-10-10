@@ -2,8 +2,6 @@ import React from 'react'
 import '../Assets/Styles/Card.css'
 
 export default function Card(props) {
-    console.log(props);
-
     return (
         <div className="card_container">
             <div className="img_div">
@@ -12,7 +10,6 @@ export default function Card(props) {
             <div className="content_div">
                 <a rel="noreferrer" target="_blank" href={props.article.link}>{props.article.title}</a>
             </div>
-
         </div>
     )
 }
